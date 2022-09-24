@@ -1,0 +1,24 @@
+Originalna rec: level
+Kod reci: L140
+
+Originalna rec: level
+Kod reci: L140
+
+Originalna rec: essentiallylost
+Kod reci: E423
+
+Originalna rec: essentiallylostempty
+Kod reci: E513
+
+Originalna rec: level
+Kod reci: L140
+
+Originalna rec: level
+Kod reci: L140
+
+Originalna rec: essentiallylost
+Kod reci: E423
+
+Originalna rec: essentiallylostempty
+Kod reci: E513
+

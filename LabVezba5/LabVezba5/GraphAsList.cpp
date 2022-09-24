@@ -1,0 +1,235 @@
+#include "GraphAsList.h"
+#include "GraphAsList.h"
+
+
+GraphAsList::~GraphAsList()
+{
+	LinkedNode* ptr;
+	while (start != NULL)
+	{
+		ptr = start;
+		Edge* prt2 = start->adj, * ptr2;
+		while (prt2 != NULL)
+		{
+			ptr2 = prt2;
+			prt2 = prt2->link;
+			delete ptr2;
+		}
+		delete ptr;
+		start = start->next;
+	}
+}
+
+LinkedNode* GraphAsList::findNode(int node)
+{
+	if (start == NULL)
+		throw exception("Nema cvorova");
+	LinkedNode* pom = start;
+	while (pom != NULL && pom->node != node)
+	{
+		pom = pom->next;
+	}
+	return pom;
+}
+
+Edge* GraphAsList::findEdge(int n1, int n2)
+{
+	if (start == NULL)
+		throw exception("Nema cvorova");
+	LinkedNode* a = findNode(n1);
+	if (a == NULL)
+		throw exception("Nema potega");
+	Edge* pom = a->adj;
+	while (pom != NULL && pom->dest->node != n2)
+	{
+		pom = pom->link;
+	}
+	return pom;
+}
+
+bool GraphAsList::insertNode(LinkedNode* node)
+{
+	if (node == NULL) return false;
+	node->next = start;
+	start = node;
+	nodeNum++;
+
+	return true;
+}
+
+bool GraphAsList::insertNode(int n)
+{
+	LinkedNode* newNode = new LinkedNode(n, start, NULL);
+	if (newNode == NULL) return false;
+	start = newNode;
+	nodeNum++;
+
+	return true;
+}
+
+bool GraphAsList::deleteNode(int n)
+{
+	LinkedNode* prev = NULL;
+	LinkedNode* pom = start;
+	Edge* e, * epr;
+	while (pom != NULL && pom->node != n)
+	{
+		epr = NULL;
+		e = pom->adj;
+		while (e != NULL && e->dest->node != n)
+		{
+			epr = e;
+			e = e->link;
+		}
+		if (e != NULL)
+		{
+			if (epr == NULL)
+				pom->adj = e->link;
+			else
+			{
+				epr->link = e->link;
+			}
+			delete e;
+		}
+		prev = pom;
+		pom = pom->next;
+	}
+	if (pom != NULL)
+	{
+		Edge* poteg = pom->adj;
+		while (pom->adj != NULL)
+		{
+			poteg = pom->adj;
+			pom->adj = pom->adj->link;
+			delete poteg;
+		}
+		if (prev == NULL)
+			start = pom->next;
+		else
+			prev->next = pom->next;
+		delete pom;
+		if (prev == NULL)
+			pom = start;
+		else
+			pom = prev->next;
+	}
+	while (pom != NULL)
+	{
+		epr = NULL;
+		e = pom->adj;
+		while (e != NULL && e->dest->node != n)
+		{
+			epr = e;
+			e = e->link;
+		}
+		if (e != NULL)
+		{
+			if (epr == NULL)
+				pom->adj = e->link;
+			else
+			{
+				epr->link = e->link;
+			}
+			delete e;
+		}
+		pom = pom->next;
+	}
+	return true;
+}
+
+bool GraphAsList::insertEdge(int a, int b, int weight)
+{
+	LinkedNode* an = findNode(a);
+	LinkedNode* bn = findNode(b);
+	if (an == NULL || bn == NULL)
+		return false;
+	an->adj = new Edge(an,weight, bn, an->adj);
+	bn->adj = new Edge(bn,weight, an, bn->adj);
+	return true;
+}
+
+bool GraphAsList::insertEdge(LinkedNode* node1, LinkedNode* node2, int weight)
+{
+	if (node1 == NULL || node2 == NULL)
+		return false;
+	node1->adj = new Edge(node1,weight, node2, node1->adj);
+	node2->adj = new Edge(node2,weight, node1, node2->adj);
+	return false;
+}
+
+int GraphAsList::edgeCost(int a, int  b)
+{
+	Edge* edg = findEdge(a,b);
+	if (edg != NULL)
+		return edg->weight;
+	return INT_MAX;
+}
+
+bool GraphAsList::deleteEdge(int a, int b)
+{
+	LinkedNode* n1 = findNode(a);
+	LinkedNode* n2 = findNode(b);
+	if (n1 == NULL)
+		return false;
+	Edge* prev = NULL;
+	Edge* pom = n1->adj;
+	while (pom != NULL && pom->dest->node != b)
+	{
+		prev = pom;
+		pom = pom->link;
+	}
+
+	if (pom == NULL)
+		return false;
+	if (prev == NULL)
+	{
+		n1->adj = pom->link;
+	}
+	else
+	{
+		prev->link = pom->link;
+	}
+	delete pom;
+	prev = NULL;
+	pom = n2->adj;
+	while (pom != NULL && pom->dest->node != b)
+	{
+		prev = pom;
+		pom = pom->link;
+	}
+
+	if (pom == NULL)
+		return false;
+	if (prev == NULL)
+	{
+		n2->adj = pom->link;
+	}
+	else
+	{
+		prev->link = pom->link;
+	}
+	delete pom;
+	return true;
+}
+
+void GraphAsList::print()
+{
+
+	cout << "Num of nodes: " << this->nodeNum << endl;
+	LinkedNode* pom = start;
+	while (pom != NULL)
+	{
+		pom->visit();
+		cout << "-->";
+		Edge* edg = pom->adj;
+		while (edg != NULL)
+		{
+			edg->dest->visit();
+			cout << "| " << edg->weight<< "--> ";
+			edg = edg->link;
+		}
+		cout << endl;
+		pom = pom->next;
+
+	}
+}

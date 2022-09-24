@@ -1,0 +1,69 @@
+Potrebno najvise izmeniti tri karaktera reci level da bi se dobila rec level
+Algoritam zavrsen nakon: 0ms
+
+Potrebno najvise izmeniti tri karaktera reci level da bi se dobila rec level
+Algoritam zavrsen nakon: 1ms
+
+Potrebno najvise izmeniti tri karaktera reci let da bi se dobila rec level
+Algoritam zavrsen nakon: 1ms
+
+Potrebno najvise izmeniti tri karaktera reci life da bi se dobila rec level
+Algoritam zavrsen nakon: 0ms
+
+Potrebno najvise izmeniti tri karaktera reci have da bi se dobila rec level
+Algoritam zavrsen nakon: 0ms
+
+Potrebno najvise izmeniti tri karaktera reci essentiallylost da bi se dobila rec essentiallylost
+Algoritam zavrsen nakon: 1ms
+
+Potrebno najvise izmeniti tri karaktera reci essentiallylostempty da bi se dobila rec essentiallylostempty
+Algoritam zavrsen nakon: 1ms
+
+Potrebno najvise izmeniti tri karaktera reci a873 da bi se dobila rec af1f3
+Algoritam zavrsen nakon: 1ms
+
+Potrebno najvise izmeniti tri karaktera reci af1f3 da bi se dobila rec af1f3
+Algoritam zavrsen nakon: 0ms
+
+Potrebno najvise izmeniti tri karaktera reci f1e1 da bi se dobila rec af1f3
+Algoritam zavrsen nakon: 0ms
+
+Potrebno najvise izmeniti tri karaktera reci 9f170 da bi se dobila rec af1f3
+Algoritam zavrsen nakon: 1ms
+
+Potrebno najvise izmeniti tri karaktera reci aaf da bi se dobila rec af1f3
+Algoritam zavrsen nakon: 0ms
+
+Potrebno najvise izmeniti tri karaktera reci 0f16a da bi se dobila rec af1f3
+Algoritam zavrsen nakon: 3ms
+
+Potrebno najvise izmeniti tri karaktera reci a84cdd0000 da bi se dobila rec a84cdd0000
+Algoritam zavrsen nakon: 0ms
+
+Potrebno najvise izmeniti tri karaktera reci 8e0a7a84cdd0000 da bi se dobila rec 8e0a7a84cdd0000
+Algoritam zavrsen nakon: 1ms
+
+Potrebno najvise izmeniti tri karaktera reci f4c05c3e13f87a6de539 da bi se dobila rec f4c05c3e13f87a6de539
+Algoritam zavrsen nakon: 1ms
+
+Potrebno najvise izmeniti tri karaktera reci level da bi se dobila rec level
+Algoritam zavrsen nakon: 5ms
+
+Potrebno najvise izmeniti tri karaktera reci level da bi se dobila rec level
+Algoritam zavrsen nakon: 0ms
+
+Potrebno najvise izmeniti tri karaktera reci let da bi se dobila rec level
+Algoritam zavrsen nakon: 1ms
+
+Potrebno najvise izmeniti tri karaktera reci life da bi se dobila rec level
+Algoritam zavrsen nakon: 1ms
+
+Potrebno najvise izmeniti tri karaktera reci have da bi se dobila rec level
+Algoritam zavrsen nakon: 2ms
+
+Potrebno najvise izmeniti tri karaktera reci essentiallylost da bi se dobila rec essentiallylost
+Algoritam zavrsen nakon: 0ms
+
+Potrebno najvise izmeniti tri karaktera reci essentiallylostempty da bi se dobila rec essentiallylostempty
+Algoritam zavrsen nakon: 2ms
+

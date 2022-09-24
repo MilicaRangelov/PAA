@@ -1,0 +1,104 @@
+Poklapanje na poziciji: 8
+Pronadjena rec: level
+Potrebno vreme : 3ms
+
+Poklapanje na poziciji: 58
+Pronadjena rec: level
+Potrebno vreme : 1ms
+
+Poklapanje na poziciji: 30
+Pronadjena rec: essentiall
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: essentiall
+Potrebno vreme : 1ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: essentiall
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 30
+Pronadjena rec: essentiallylost
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: essentiallylost
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: essentiallylost
+Potrebno vreme : 4ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: essentiallylostempty
+Potrebno vreme : 5ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: essentiallylostempty
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 5
+Pronadjena rec: af1f3
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 26
+Pronadjena rec: a84cdd0000
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 22
+Pronadjena rec: a84cdd0000
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 21
+Pronadjena rec: 8e0a7a84cdd0000
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: f4c05c3e13f87a6de539
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: f4c05c3e13f87a6de539
+Potrebno vreme : 1ms
+
+Poklapanje na poziciji: 8
+Pronadjena rec: level
+Potrebno vreme : 85ms
+
+Poklapanje na poziciji: 58
+Pronadjena rec: level
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 30
+Pronadjena rec: essentiall
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: essentiall
+Potrebno vreme : 2ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: essentiall
+Potrebno vreme : 2ms
+
+Poklapanje na poziciji: 30
+Pronadjena rec: essentiallylost
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: essentiallylost
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: essentiallylost
+Potrebno vreme : 2ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: essentiallylostempty
+Potrebno vreme : 0ms
+
+Poklapanje na poziciji: 0
+Pronadjena rec: essentiallylostempty
+Potrebno vreme : 1ms
+
